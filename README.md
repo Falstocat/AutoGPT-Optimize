@@ -1,4 +1,4 @@
-#NOTE: I am new to coding and too sleep-deprived to learn make this private.
+# NOTE: I am new to coding and too sleep-deprived to learn make this private.
 
 It is a simple novice's attempt at improving functionality of AutoGPT when using only 3.5_turbo.
 
