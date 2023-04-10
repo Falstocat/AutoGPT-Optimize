@@ -32,7 +32,7 @@ class AIConfig:
             yaml.dump(config, file)
 
     def construct_full_prompt(self):
-        prompt_start = """Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications."""
+        prompt_start = """Your decisions must be made without user assistance. Play to your strengths as an LLM with google, and pursue simple strategies."""
 
         # Construct full prompt
         full_prompt = f"You are {self.ai_name}, {self.ai_role}\n{prompt_start}\n\nGOALS:\n\n"

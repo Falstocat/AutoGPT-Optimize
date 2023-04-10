@@ -54,7 +54,7 @@ def get_command(response):
 def execute_command(command_name, arguments):
     memory = PineconeMemory()
     try:
-        if command_name == "google":
+        if command_name == ("google" or "google_search"):
             
             # Check if the Google API key is set and use the official search method
             # If the API key is not set or has only whitespaces, use the unofficial search method
