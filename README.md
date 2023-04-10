@@ -1,3 +1,20 @@
+#NOTE: I am new to coding and too sleep-deprived to learn make this private.
+
+It is a simple novice's attempt at improving functionality of AutoGPT when using only 3.5_turbo.
+
+I am not a programmer, I work at a Starbucks. Please don't make fun of me or be harsh.
+
+I have reduced the buffer and edited the prompt to take up less of the model's context. I like, guess that could help?
+
+I also made it so the write_to_file command acts as append_text instead. I am planning on changing it back.
+
+I have generated some stuff with it that I put in outputs. Honestly the best so far is the meal planning stuff. It shows great promise, and I'm going to probably abide by those suggestions.
+
+I'm just happy that it can do anything with just the turbo model.
+
+The biggest issue I've had is botched json parsing. Please don't laugh at my attempts. Also if you need a laugh, check out my sweet child's attempt to fix it in outputs.
+
+
 # Auto-GPT: An Autonomous GPT-4 Experiment
 ![GitHub Repo stars](https://img.shields.io/github/stars/Torantulino/auto-gpt?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/siggravitas?style=social)
